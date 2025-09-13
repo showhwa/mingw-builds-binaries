@@ -1,6 +1,7 @@
 name: x86_64 and i686 release builds
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "*-rt_*-rev*"
